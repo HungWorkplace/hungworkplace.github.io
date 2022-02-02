@@ -51,16 +51,16 @@ function bodauTiengViet(str) {
     return str;
 }
 
-function cancel() {
-    // inputName.value = "";
-    // inputAddress.value = "";
-    // inputResult.value = "";
+// function cancel() {
+//     // inputName.value = "";
+//     // inputAddress.value = "";
+//     // inputResult.value = "";
 
-    // for (var i = 0; i < inputAddress.length; i++) {
-    //     inputAddress[i].checked = false;
-    // }
-    window.location.href = "test.html";
-}
+//     // for (var i = 0; i < inputAddress.length; i++) {
+//     //     inputAddress[i].checked = false;
+//     // }
+//     window.location.href = "test.html";
+// }
 
 function copy() {
     if (inputResult.value == "") {
@@ -72,15 +72,15 @@ function copy() {
     document.execCommand('copy');
 
     var btnCopy = document.getElementById("btnCopy");
-    btnCopy.value = "Quay lại";
+    btnCopy.value = "Hủy";
     btnCopy.style.backgroundColor = "rgba(27,160,147,0.28)";
-    btnCopy.style.color = "#1ba093";
+    btnCopy.style.color = "#ff0000";
 
     showSuccessToast();
 
     btnCopy.onclick = function () {
         // createNamePage();
-        window.location.href = "https://saolamvanphunhoquanninhbinh.kiotviet.vn/sale/#/";
+        window.location.href = "https://hungworkplace.github.io/";
     }
 
 }
