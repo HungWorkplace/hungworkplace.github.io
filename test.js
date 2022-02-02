@@ -74,7 +74,7 @@ function copy() {
     var btnCopy = document.getElementById("btnCopy");
     btnCopy.value = "Hủy";
     btnCopy.style.backgroundColor = "rgba(27,160,147,0.28)";
-    btnCopy.style.color = "#ff0000";
+    btnCopy.style.color = "#ffffff";
 
     showSuccessToast();
 
